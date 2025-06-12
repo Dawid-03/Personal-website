@@ -29,14 +29,25 @@ export function HeroSection() {
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button size="lg" onClick={() => {
-                document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' });
-              }}>
+              <Button
+                size="lg"
+                onClick={() => {
+                  document
+                    .getElementById("projects")
+                    ?.scrollIntoView({ behavior: "smooth" });
+                }}
+              >
                 {translations.hero.viewWork}
               </Button>
-              <Button variant="outline" size="lg" onClick={() => {
-                document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
-              }}>
+              <Button
+                variant="outline"
+                size="lg"
+                onClick={() => {
+                  document
+                    .getElementById("contact")
+                    ?.scrollIntoView({ behavior: "smooth" });
+                }}
+              >
                 {translations.hero.contactMe}
               </Button>
             </div>
@@ -51,7 +62,7 @@ export function HeroSection() {
                 </Button>
               </a>
               <a
-                href="https://linkedin.com/in/dawid-szewczyk"
+                href="https://www.linkedin.com/in/dawidszewczyk/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
