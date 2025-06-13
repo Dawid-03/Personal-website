@@ -53,4 +53,30 @@ export const projects: Project[] = [
     },
     featured: true,
   },
+    {
+    id: "tasks",
+    title: "Tasks",
+    description: {
+      en: "simple and clean to-do list app for managing your daily tasks. Create tasks, organize them into lists, mark them as completed, and set optional deadlines. All content – including tasks, lists, and dates – is fully encrypted, ensuring your data stays private and secure.",
+      pl: "Prosta i przejrzysta aplikacja do zarządzania zadaniami (to-do). Pozwala tworzyć zadania, grupować je w listy, oznaczać jako wykonane oraz ustawiać terminy wykonania (deadline’y). Minimalistyczny interfejs i szyfrowanie danych zapewniają wygodę i prywatność."
+    },
+    technologies: ["Golang", "Gorm", "PostgreSQL", "RESTful API"],
+    links: {
+      github: "https://git.nove.team/tasks/backend",
+    },
+    featured: true,
+  },
+      {
+    id: "gohsms",
+    title: "Go HSMS",
+    description: {
+      en: "Go HostedSMS – a Go client for the full hostedsms.pl API. Supports message sending, status checks, sender management, and all other available endpoints.",
+      pl: "Go HostedSMS – klient w języku Go dla pełnego API hostedsms.pl. Obsługuje wysyłkę wiadomości, sprawdzanie statusu, zarządzanie nadawcami i inne funkcje API."
+    },
+    technologies: ["Golang"],
+    links: {
+      github: "https://git.nove.team/nove-org/go-hsms/",
+    },
+    featured: true,
+  },
 ]
